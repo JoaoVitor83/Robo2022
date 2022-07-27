@@ -1,6 +1,6 @@
 // Copyright (c) FIRST and other WPILib contributors.
-// Open Source Software; you can modify and/or share it under the terms of
-// the WPILib BSD license file in the root directory of this project.
+// Software livre; você pode modificá-lo e/ou compartilhá-lo sob os termos de
+// o arquivo de licença WPILib BSD no diretório raiz deste projeto.
 
 #include "Robot.h"
 
@@ -10,30 +10,31 @@
 void Robot::RobotInit() {}
 
 /**
- * This function is called every robot packet, no matter the mode. Use
- * this for items like diagnostics that you want to run during disabled,
- * autonomous, teleoperated and test.
+* Esta função é chamada de cada pacote de robô, não importa o modo. Usar
+ * isso para itens como diagnósticos que você deseja executar durante a desativação,
+ * autônomo, teleoperado e teste.
  *
- * <p> This runs after the mode specific periodic functions, but before
- * LiveWindow and SmartDashboard integrated updating.
+ * <p> Isso é executado após as funções periódicas específicas do modo, mas antes
+ * Atualização integrada LiveWindow e SmartDashboard.
  */
 void Robot::RobotPeriodic() {
   frc2::CommandScheduler::GetInstance().Run();
 }
 
 /**
- * This function is called once each time the robot enters Disabled mode. You
- * can use it to reset any subsystem information you want to clear when the
- * robot is disabled.
+* Esta função é chamada uma vez cada vez que o robô entra no modo Desativado. Você
+ * pode usá-lo para redefinir qualquer informação do subsistema que você deseja limpar quando o
+ * o robô está desabilitado.
  */
 void Robot::DisabledInit() {}
 
 void Robot::DisabledPeriodic() {}
 
 /**
- * This autonomous runs the autonomous command selected by your {@link
- * RobotContainer} class.
+ * Este autônomo executa o comando autônomo selecionado pelo seu {@link
+ * RobotContainer} classe.
  */
+
 void Robot::AutonomousInit() {
   m_autonomousCommand = m_container.FinalAutonomousCommand();
 
@@ -46,10 +47,10 @@ void Robot::AutonomousPeriodic() {
 }
 
 void Robot::TeleopInit() {
-  // This makes sure that the autonomous stops running when
-  // teleop starts running. If you want the autonomous to
-  // continue until interrupted by another command, remove
-  // this line or comment it out.
+  // Isso garante que o autônomo pare de funcionar quando
+  // teleop começa a funcionar. Se você quer que o autônomo
+  // continua até ser interrompido por outro comando, remove
+  // esta linha ou comente-a.
   
   if (m_autonomousCommand != nullptr) {
     m_autonomousCommand->Cancel();
@@ -58,14 +59,15 @@ void Robot::TeleopInit() {
 }
 
 /**
- * This function is called periodically during operator control.
+ * Esta função é chamada periodicamente durante o controle do operador.
  */
+
 void Robot::TeleopPeriodic() {
   
 }
 
 /**
- * This function is called periodically during test mode.
+ * Esta função é chamada periodicamente durante o modo de teste.
  */
 void Robot::TestPeriodic() {}
 
