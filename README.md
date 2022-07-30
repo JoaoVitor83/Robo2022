@@ -3,7 +3,7 @@
 # Projeto
 Projeto do Robo da Techmaker Robotics 2022 - Rapid React
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Tecnologias utilizadas
 
 - ``C++``
 - ``Visual Studio Code``
