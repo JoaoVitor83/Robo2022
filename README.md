@@ -1,14 +1,15 @@
 ## TECHMAKER ROBOTICS 2022
 
-## :hammer: Funcionalidades do projeto
-
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
-
 # Projeto
 Projeto do Robo da Techmaker Robotics 2022 - Rapid React
+
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``C++``
+- ``Visual Studio Code``
+- ''Bibliotecas para os controladores de motor''
+- ''Git''
+
 ## Itens
 
 - [Projeto](#projeto)
