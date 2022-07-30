@@ -7,9 +7,8 @@ Projeto do Robo da Techmaker Robotics 2022 - Rapid React
 
 - ``C++``
 - ``Visual Studio Code``
-- ''Bibliotecas para os controladores de motor''
-- ''Git''
-
+- ``Bibliotecas dos controladores de motor``
+- ``Git``
 ## Itens
 
 - [Projeto](#projeto)
